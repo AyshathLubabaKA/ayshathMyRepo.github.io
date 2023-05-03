@@ -1,0 +1,350 @@
+.header{
+    width: 100%;
+    height: 130px;
+    
+}
+.navbar{
+    width: 100%;
+    height: 70px;
+    border: rgb(229, 220, 220);
+    border-style: groove;
+    border-top-width: 1px;
+    border-bottom-width: 0;
+    border-left-width: 0;
+}
+.logo{
+    width: 8%;
+    height: 100%;
+    float: left;
+}
+.nav{
+    width: 90%;
+    height: 100%;
+    float: left;
+}
+ul{
+    list-style-type: none;
+    padding-top: 10px;
+}
+
+li{
+    display: inline;
+    padding-left: 15px;
+}
+a{
+    text-decoration: none;
+    font-family: AvenirNext,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    letter-spacing: .11pc;
+    font-weight: 600;
+    color: #0C121C;
+}
+.nav img{
+    height: 35px;
+    width: 35px;
+}
+.second-line{
+    width: 100%;
+    height: 40px;
+    border: rgb(229, 220, 220);
+    border-style: groove;
+    border-width: 1px;
+    border-left-width: 0;
+}
+.select-option{
+    width: 250px;
+    height: 30px;
+    padding-top: 10px;
+    padding-left: 30px;
+    float: left;
+    background:  #54616b;
+    border: #0C121C;
+}
+select{
+    border: none;
+    outline: none;
+    text-decoration: none;
+    font-family: AvenirNext,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    letter-spacing: .11pc;
+    font-weight: 600;
+    color: white;
+    background:  #54616b;
+}
+.overview{
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 10%;
+    height: 40px;
+    float: left;
+    
+}
+.body1{
+    margin-left: 80px;
+   margin-top: 0;
+  
+   
+}
+.capt{
+    width: 70%;
+   height: 100px;
+    float: left;
+}
+.video-control{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 1300px;
+    height: 600px;
+}
+h2{
+    font-size: 35px;
+    font-weight: 550;
+    font-family: Arial,Helvetica,sans-serif;
+}
+.submit-btn{
+    margin-top: 50px;
+    float: left;
+    width: 30%;
+    height: 100px;
+}
+.submit-btn:hover{
+    cursor: pointer;
+}
+.customer{
+   
+    height: 600px;
+    width: 100%;
+    
+}
+
+.box{
+    margin-top: 60px;
+    padding-left: 10px;
+    height: 200px;
+    width: 24%;
+    background: whitesmoke;
+    border-right: solid grey 1px;
+    float: left;
+
+}
+.box:hover{
+    cursor: pointer;
+    background: gainsboro;
+    text-decoration: underline;
+}
+.body2{
+    height: 400px;
+    width: 100%;
+
+}
+.para{
+    margin-left: 50px;
+    height: 400px;
+    width:70%;
+    font-size: 32px;
+    letter-spacing: .11pc;
+    float: left;
+}
+
+.certify img{
+    float: left;
+    width: 300px;
+    height: 180px;
+}
+.body3{
+    width: 100%;
+    height: 350px;
+    padding-top: 40px;
+    padding:40px;
+    background: whitesmoke;
+}
+.body3-text{
+    width: 100%;
+    height: 300px;
+    background: rgb(173, 122, 29);
+}
+h6{
+    font-size: 30px;
+    color: white;
+    font-family: Arial,Helvetica,sans-serif;
+    font-weight: lighter;
+}
+.informed{
+    font-size: 10px;
+    color: white;
+}
+h1{
+    text-align: center;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 40px;
+    letter-spacing: .11pc;
+}
+.body4{
+    width: 100%; 
+    height: 1600px;
+   
+}
+.body5{
+    width: 100%; 
+    height: 1450px;
+    padding-top: 50px;
+    padding-left: 50px;
+    background: whitesmoke;
+}
+.box1{
+    float: left;
+    margin-top: 60px;
+    height: 400px;
+    width: 24.2%;
+    margin-bottom: 50px;
+    border-bottom: solid gray 1px;
+}
+
+.body6{
+    width: 100%; 
+    height: 1100px;
+    align-items: center;
+}
+.explore-button{
+   margin-top: 100px;
+   margin-left: 50px;
+}
+.body7{
+    width: 100%; 
+    height: 1300px;
+    padding-top: 50px;
+    padding-left: 50px;
+    background: whitesmoke;
+
+}
+.body8{
+    width: 100%; 
+    height: 700px;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.box3{
+    margin-left: 50px;
+    float: left;
+    width: 28%;
+}
+.body9-navbar{
+    margin-top: 100PX;
+    margin-left: 30%;
+}
+.body9-navbar input{
+    width: 150px;
+    height: 30px;
+    background: #0C121C;
+    color: white;
+    float: left;
+    font-size: 10px;
+}
+.body9-navbar input:hover{
+    cursor: pointer;
+}
+.body9-images{
+    margin-top: 200px;
+    margin-left: 100px;
+}
+.body9-image1{
+    margin-left: 20px;
+    float: left;
+}
+.body10{
+    margin-top: 200px;
+    margin-left: 50px;
+    width: 100%;
+    height: 800px;
+}
+.body10-1{
+    background: whitesmoke;
+}
+.body10-text{
+    float: left;
+}
+.body10-img{
+    float: left;
+    margin-left: 100px;
+}
+.body11{
+    margin-top: 150px;
+    background: whitesmoke;
+}
+.body11-1{
+    margin-top: 0%;
+    height: 100px;
+
+}
+.box4{
+    margin-top: 100px;
+    float: left;
+    width: 23%;
+    margin-left: 30px;
+}
+.box5{
+    padding-left: 10px;
+    height: 200px;
+    width: 24%;
+    border-right: solid grey 1px;
+    float: left;
+
+}
+.conclude{
+    margin-top: 120px;
+    padding-left: 50px;
+    background: whitesmoke;
+    font-size: 13px;
+    color: #54616b;
+}
+.body12{
+    width: 100%;
+    height: 500px;
+    margin-top: 20px;
+    background: grey;
+    font-size: 10px;
+    padding-left: 50px;
+    padding-top: 50px;
+    line-height: 30px;
+    color: aliceblue;
+    letter-spacing: .11pc;
+}
+.line1{
+    float: left;
+    margin-left: 20px;
+}
+.line2{
+    float: left;
+    margin-left: 70px;
+}
+.line3{
+    float: left;
+    margin-left: 70px;
+}
+.line4{
+    float: left;
+    margin-left: 70px;
+}
+.logoF{
+  
+    width: 50px;
+    height: 50px;
+}
+.icons{
+    margin-left: 10px;
+    line-height: 15px;
+}
+.line5{
+    float: left;
+    margin-left: 70px;
+}
+.medias{
+    margin-left: 20px;
+    line-height: 50px;
+}
+.button1:hover{
+    color: black;
+    background: white;
+    cursor: pointer;
+}
