@@ -1,0 +1,354 @@
+
+body{
+    margin:0;
+    padding: 0;
+}
+
+
+/*navbar*/
+
+.logo-img{
+    width: 150px;
+    margin-left: 30%;
+    margin-top: 10px;
+    margin-right: 300px;
+}
+
+.nav-link{
+    color: black;
+    padding:15px;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 2.7;
+    text-transform: uppercase;
+
+}
+.nav-item:hover{
+    cursor: pointer;
+    border-bottom: solid 3px rgb(61, 61, 135);
+}
+
+.btn1{
+    border-radius: 25px;
+    border: solid;
+    border-width: 1px ;
+    font-size: 12px;
+    font-weight: bold;
+    color:#0070ba;
+    padding-top: 12px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 80px;
+    background-color: white;
+    border-color:#0070ba;
+    box-shadow: none;
+    z-index: 0;
+}
+.btn1:hover{
+  cursor: pointer;
+  background: #f1f1f1;
+}
+.btn2{
+    margin-left: 8px;
+    border-radius: 25px;
+    border: solid;
+    border-width: 1px ;
+    font-size: 12px;
+    font-weight: bold;
+    color:white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 80px;
+    background-color:#0070ba;
+    box-shadow: none;
+    z-index: 1;
+}
+.btn2:hover{
+  cursor: pointer;
+  background: #003087;
+}
+.dropbtn {
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content div {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+/*navbox*/
+
+  .navbar .nav-item .dropdown-menu{
+     display: none; 
+    }
+	.navbar .nav-item:hover .dropdown-menu{
+     display: block; 
+    }
+	.navbar .nav-item .dropdown-menu{
+     margin-top:0; 
+    }
+
+
+.nav-box1{
+  
+    width: 100%;
+    height: 160px;
+    background:hwb(231 13% 35%);
+   
+}
+.nav-box2{
+   
+    width: 100%;
+    height: 140px;
+    background:hwb(231 13% 35%);
+}
+
+/*homepage*/
+
+.centered {
+    position: absolute;
+    font-family: pp-sans-big-light,Helvetica Neue,Arial,sans-serif;
+    color: white;
+    text-align: center;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+  }
+  .button-div{
+    position: absolute;
+    top: 45%;
+    left:38%;
+
+  }
+  .sign-btn{
+    width: 350px;
+    height: 45px;
+    background: #0070ba;
+    border-radius: 25px;
+    color: white;
+    box-shadow: none;
+    font-weight: bold;
+    border: 0cm;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .sign-btn:active{
+    text-decoration: underline;
+  }
+  .sign-btn:hover{
+    cursor: pointer;
+    background: #003087;
+  }
+  .img-text{
+    position: absolute;
+    top: 55%;
+    left: 40%;
+    color: white;
+  }
+  .img-text a{
+    color: white;
+    font-weight: bold;
+  }
+  .img-text a:hover{
+    color: white;
+  }
+
+  /*threepanel*/
+
+  
+  
+  .title-pay{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    font-size: 40px;
+    font-weight: lighter;
+  }
+  .panel1{
+    margin-top: 20px;
+    line-height: 30px;
+    text-align: center;
+    font-weight: lighter;
+    
+  }
+  
+  .panel3{
+    margin-top: 20px;
+    line-height: 30px;
+    text-align: center;
+    font-weight: lighter;
+
+  }
+  
+  .panel-btn{
+    margin-top: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #0070ba;
+    border-color: #0070ba;
+    border-radius: 25px;
+    margin-bottom: 100px;
+  }
+  .panel-btn:hover{
+    cursor: pointer;
+  }
+
+  /*threesteps*/
+
+  .threesteps{
+    background: #f1f1f1;
+    justify-content: center;
+    padding-top: 20px;
+  }
+  .title-steps{
+   justify-content: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: lighter;
+  }
+  .buyersSellers{
+    justify-content: center;
+    color:#666666 ;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  #buyer-btn{
+    border: none;
+
+  }
+  #buyer-btn:active{
+    border: none;
+    outline: none;
+    border-bottom: solid 1px;
+  }
+  #buyer-btn:focus{
+    outline: 0;
+    border-bottom: solid 1px;
+  }
+  #buyer-btn:hover{
+    cursor: pointer;
+  }
+  #seller-btn{
+    border: none;
+  }
+  #seller-btn:active{
+    border: none;
+    outline: none;
+    border-bottom: solid 1px;
+  }
+  #seller-btn:focus{
+    outline: 0;
+    border-bottom: solid 1px;
+  }
+  #buyer-btn:hover{
+    cursor: pointer;
+  }
+  #buyers{
+    display: block;
+  }
+  #sellers{
+    display: none;
+  }
+  
+  .ind-btn{
+    justify-content: center;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    color: #0070ba;
+    border-color: #0070ba;
+    border-radius: 25px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+  }
+  .ind-btn{
+    cursor: pointer;
+  }
+
+  /*joinAccount*/
+
+.join{
+ padding-top: 50px;
+  background: #003087;
+  color: white;
+  padding-bottom: 5%;
+}
+
+
+
+.join-title{
+  width: 100%;
+    letter-spacing: 2px;
+    height: 2rem;
+    font-size: 2rem;
+    font-weight: lighter;
+    padding-bottom: 100px;
+}
+.security{
+  margin-left: 100px;
+  font-family: pp-sans-big-light,Helvetica Neue,Arial,sans-serif;
+  font-size: 15px;
+    font-weight:lighter;
+    line-height: 1.5;
+
+}
+
+/*getStarted*/
+.start1{
+  background: #f7f9fa;
+}
+.start{
+  padding-top: 5%;
+  font-size: 25px;
+  color: #666;;
+}
+
+/*Footer*/
+
+.footer{
+  margin-top: 20px;
+  margin-left: 150px;
+}
+.footer-row1{
+  border-bottom: dotted 1px gray;
+  width: 85%;
+}
+.flag{
+  width: 20%;
+}
+
+.footer-para{
+  width: 80%;
+  font-size: 12px;
+  font-family: pp-sans-small-regular,Helvetica Neue,Arial,sans-serif;
+  font-weight: 400;
+}
