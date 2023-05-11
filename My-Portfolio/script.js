@@ -1,10 +1,5 @@
-/**
-* Template Name: Folio
-* Updated: Mar 10 2023 with Bootstrap v5.2.3
-* Template URL: https://bootstrapmade.com/folio-bootstrap-portfolio-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
+
 function validate(){
 
 console.log('im here');
@@ -287,5 +282,3 @@ console.log('im here');
   });
 
 })()
-
-
